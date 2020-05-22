@@ -1,0 +1,1315 @@
+@charset "utf-8";
+
+/* フォーム共通設定
+----------------------------------------------- */
+#lpshoppingcolumn {
+	/*width: 740px;*/
+	max-width: 740px;
+	margin: 50px auto;
+	/*padding: 0 2% 2%;*/
+	padding: 0 0 2%;
+	font-size: 1.2em;
+	overflow: hidden;
+}
+
+#lpshoppingcolumn table{
+	width: 100%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	text-align: left;
+}
+#lpshoppingcolumn table th{
+	padding: 15px 25px 15px 8px;
+	margin: 0;
+	border-bottom: 1px dotted #767676;
+	color: #333;
+	font-weight: normal;
+	font-size: 20px;
+	text-align: left;
+	overflow: hidden;
+}
+#lpshoppingcolumn table td {
+	padding: 15px 15px 15px 0;
+	font-size: 20px;
+	border-bottom: 1px dotted #767676;
+	overflow: hidden;
+}
+
+#lpshoppingcolumn #product_id {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#lpshoppingcolumn #quantity {
+    font-size: 1.3em;
+    font-weight: bold;
+    background: #fff;
+}
+#lpshoppingcolumn select {
+	float: none;
+}
+
+#lpshoppingcolumn .attention {
+    color: #e20000;
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+
+#lpshoppingcolumn em {
+    font-size: 14px;
+    font-style: normal;
+    color: #e20000;
+    margin: 5px 0;
+    padding: 0px;
+    line-height: 1.3rem;
+}
+
+
+/*幅*/
+#lpshoppingcolumn .w10{width:10%;}
+#lpshoppingcolumn .w20{width:20%;}
+#lpshoppingcolumn .w30{width:30%; margin: 6px 0;}
+#lpshoppingcolumn .w40{width:40%;}
+#lpshoppingcolumn .w50{width:50%;}
+#lpshoppingcolumn .w70{width:70%;}
+#lpshoppingcolumn .w80{width:80%;}
+#lpshoppingcolumn .w90{width:90%;}
+#lpshoppingcolumn .w95{width:95%;}
+#lpshoppingcolumn .w98{width:98%;}
+#lpshoppingcolumn .w100{width:100%;}
+
+/*区切り線*/
+#lpshoppingcolumn .lp-bottomline{border-top:1px solid #222;margin-top:10px;padding: 0 0 10px 0;}
+#lpshoppingcolumn .lp-bottomline02 {border-top: 1px solid #222;margin-top: 10px;margin-bottom: 10px;padding: 10px 0 0 0;}
+#lpshoppingcolumn .lp-bottomline03{border-bottom:1px solid #222;margin-bottom:10px;padding:0 0 10px 0;}
+#lpshoppingcolumn .lp-bottomline04{border-bottom:1px dotted #222;margin-bottom:10px;padding:10px 0;}
+#lpshoppingcolumn .lp-bottomline05 {border-top: 1px solid #222;margin-top: 10px;margin-bottom: 10px;padding: 10px 0 0 0;}
+
+/*回り込み */
+#lpshoppingcolumn .fl30{float:left;width:30%}
+#lpshoppingcolumn .fl40{float:left;width:40%}
+#lpshoppingcolumn .fl50{float:left;width:50%}
+#lpshoppingcolumn .fl60{float:left;width:60%}
+#lpshoppingcolumn .fl66{float:left;width:66%}
+#lpshoppingcolumn .fl70{float:left;width:70%}
+
+/*回り込み解除*/
+#lpshoppingcolumnn .clear{clear:both;}
+
+
+
+/*間隔 */
+#lpshoppingcolumn .pdr10{padding: 0 10px 0 0;}
+#lpshoppingcolumn .pdr20{padding: 0 20px 0 0;}
+#lpshoppingcolumn .pdl10{padding-left: 0 10px 0 0;}
+#lpshoppingcolumn .pdrc50 {padding: 0 0 0 50px; color: #ff0000; font-size: 14px; font-weight: normal;}
+#lpshoppingcolumn .pdt5{padding: 5px 0 0 0;}
+#lpshoppingcolumn .pdt10{padding: 10px 0 0 0;}
+#lpshoppingcolumn .pdt15{padding: 8px 0 8px 0;}
+#lpshoppingcolumn .pdt20{padding: 20px 0 0 0;}
+#lpshoppingcolumn .pdt20 a{color: #555;}
+#lpshoppingcolumn .pdt30{padding: 30px 0 0 0;}
+
+#lpshoppingcolumn .mgt10{margin-top:10px;}
+#lpshoppingcolumn .mgt20{margin-top:20px;}
+#lpshoppingcolumn .mgb10{margin-bottom:10px;}
+#lpshoppingcolumn .mgtb10{margin:10px 0;}
+
+/*フォント*/
+#lpshoppingcolumn h1 {margin: 5px 0;font-size: 1.2em;padding: 7px;background: #222;color: #fff;text-align: left;width: 100%;}
+#lpshoppingcolumn h2{margin: 5px 0;font-size: 1.2em;padding: 7px;background: #222;color: #fff;text-align: left;width: 100%;}
+#lpshoppingcolumn h3{
+	margin: 15px 0 0 0;
+	font-size: 30px;
+	color: #333;
+	text-align: left;
+	font-weight: normal;
+	border-bottom: 2px solid #333;width: 100%;
+}
+#lpshoppingcolumn h4{margin: 0;font-size: 1.2em;padding: 0;color: #333;text-align: left;border-bottom: 2px solid #333;width: 100%;}
+
+#lpshoppingcolumn p{font-size:1em}
+
+/*フォントサイズ*/
+#lpshoppingcolumn .txt_b{font-weight:700;font-size:1em;padding:0 0 3px 0;}
+#lpshoppingcolumn .ft_s {font-size: 1em;padding: 5px;margin: 0;text-align: center;font-weight: normal;}
+#lpshoppingcolumn .ft_s02{font-size:1em;padding:5px;margin:0;}
+#lpshoppingcolumn .ft_s03{font-size:1em;padding:10px 0 5px 0;margin:0 0 10px 0;font-weight:700;}
+#lpshoppingcolumn .ft_s05 {font-size:1em;line-height: 1.5em;}
+#lpshoppingcolumn .mgs{margin-right:10px;font-weight:700;}
+
+
+/* 定期カレンダー
+----------------------------------------------- */
+#lpshoppingcolumn #block-calendar {
+	width: 28%;
+	float: left;
+	margin: 0 2% 2%;
+}
+
+#lpshoppingcolumn #block-calendar caption {
+	color: #333;
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+#lpshoppingcolumn #block-calendar table {
+	margin: 0;
+}
+#lpshoppingcolumn #block-calendar table th {
+	background: #eeeeee!important;
+	font-size: 1.2em;
+	text-align: center;
+	border: 1px solid #ccc;!important;
+}
+#lpshoppingcolumn #block-calendar table td {
+	padding: 2px !important;
+	font-size: 1.2em;
+	text-align: center;
+	border:1px solid #ccc;!important;
+}
+
+/*カレンダーボタン*/
+#lpshoppingcolumn .calendar_btn {
+    margin: 0;
+    padding: 7px 14px;
+    background: #eee !important;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 100%;
+    border: 1px solid #666;
+}
+
+
+/* クラス
+----------------------------------------------- */
+#lpshoppingcolumn .input_error {
+	display: inline-block;
+	margin: 10px 0;
+	padding: 5px 10px;
+	background: rgb(255,0,0);
+	color: rgb(255,255,255);
+}
+
+#lpshoppingcolumn .claer {
+	clear: both;
+}
+
+#lpshoppingcolumn .subhead{
+	padding-left:10px;
+	}
+
+#lpshoppingcolumn_box {
+    width: 98%;
+    margin: 10px auto;
+    font-size: 1em;
+    border: 1px dashed #333;
+    padding: 1%;
+}
+
+.focus {
+    background-color: #fff0f5;
+}
+
+.nohyphen{
+    margin: 10px 0 0 0;
+    display: inline-block;
+}
+
+.annotation{
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1em;
+    vertical-align: inherit;
+}
+
+.no_pd{padding-top: 0 !important; padding-bottom: 0 !important;}
+.no_bdr{border: none !important;}
+.no_bdr td{padding-top: 0 !important;}
+.no_bdr input[type=radio]{margin: 0.8em 0;}
+
+
+
+/* トグル
+----------------------------------------------- */
+#slidetoggle_menu{
+    margin: 1em 1% 0 82%;
+    width: 8em;
+    background: #fff;
+    border-radius: 6px;
+    padding: 6px 10px;
+}
+#slidetoggle_menu dd{display: none; line-height: 150%;} 
+#slidetoggle_menu a{color: #666;}
+#slidetoggle_menu dt{text-align: center;}
+	
+	
+
+
+/*ラジオ、チェックボックス（装飾）
+----------------------------------------------- */
+
+/*ラジオボックス（お支払い方法の指定）*/
+#payment_methods
+ input[type="radio"]{
+    display: inline-block;
+    margin-right: 6px;
+}
+
+#payment_methods
+ input[type=radio] + label {
+    position: relative;
+     
+    display: inline-block;
+    margin-right: 12px;
+     
+    font-size: 16px;
+    line-height: 30px;
+    left:0;
+    cursor: pointer;
+}
+
+@media (min-width: 1px) {
+	
+#payment_methods
+ input[type=radio]
+  {
+        display: none;
+        margin: 0;
+    }
+
+#payment_methods
+ input[type=radio] + label{
+        padding: 0 0 0 25px;
+    }
+		
+
+#payment_methods
+ input[type=radio] + label::before
+ {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+         
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        display: block;
+        width: 18px;
+        height: 18px;
+        margin-top: -9px;
+         
+        background: #FFF;
+    }
+	
+#payment_methods
+ input[type=radio] + label::before {
+        border: 2px solid #ccc;
+        border-radius: 30px;
+    }
+	
+#payment_methods
+ input[type=radio]:checked + label::after
+ {
+        content: "";
+        position: absolute;
+        top: 50%;
+         
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        display: block;
+    }
+	
+#lpshoppingcolumn
+  input[type=radio]:checked + label::after {
+        left: 5px;
+         
+        width: 8px;
+        height: 8px;
+        margin-top: -4px;
+         
+        background: #3e86fc;
+        border-radius: 8px;
+    }	
+	
+}
+
+
+
+
+/*ラジオボックス（定期お届け間隔の指定）*/
+
+#regular-deliv_area
+ input[type="radio"]{
+    display: inline-block;
+    margin-right: 6px;
+}
+
+#regular-deliv_area
+ input[type=radio] + label {
+    position: relative;
+    display: inline-block;
+    margin-right: 12px;
+    font-size: 16px;
+    line-height: 30px;
+    left:0;
+    cursor: pointer;
+}
+
+@media (min-width: 1px) {
+	
+#regular-deliv_area
+ input[type=radio]
+  {
+        display: none;
+        margin: 0;
+    }
+
+#regular-deliv_area input[type=radio] + label {
+    vertical-align: middle;
+    padding: 9px 0 9px 25px;
+}
+		
+
+#regular-deliv_area
+ input[type=radio] + label::before
+ {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+         
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        display: block;
+        width: 18px;
+        height: 18px;
+        margin-top: -9px;
+         
+        background: #FFF;
+    }
+	
+#regular-deliv_area
+ input[type=radio] + label::before {
+        border: 2px solid #ccc;
+        border-radius: 30px;
+    }
+	
+#regular-deliv_area
+ input[type=radio]:checked + label::after
+ {
+        content: "";
+        position: absolute;
+        top: 50%;
+         
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        display: block;
+    }
+	
+#lpshoppingcolumn
+  input[type=radio]:checked + label::after {
+        left: 5px;
+         
+        width: 8px;
+        height: 8px;
+        margin-top: -4px;
+         
+        background: #3e86fc;
+        border-radius: 8px;
+    }	
+	
+}
+
+/*チェックボックス（装飾）
+----------------------------------------------- */
+#lpshoppingcolumn input[type="checkbox"] {
+	display: inline-block;
+    margin-right: 6px;
+}
+
+#lpshoppingcolumn input[type=checkbox] + label {
+    position: relative;
+    display: inline-block;
+    margin-right: 12px;
+    font-size: 20px !important;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+@media (min-width: 1px) {
+    #lpshoppingcolumn input[type=checkbox] {
+        display: none;
+        margin: 0;
+    }
+    #lpshoppingcolumn input[type=checkbox] + label {
+        padding: 3px 0 0 24px;
+		font-size: 1rem;
+    }
+    #lpshoppingcolumn input[type=checkbox] + label::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+         
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        display: block;
+        width: 18px;
+        height: 18px;
+        margin-top: -9px;
+         
+        background: #FFF;
+    }
+    #lpshoppingcolumn input[type=checkbox] + label::before {
+        border: 2px solid #ccc;
+    }
+    #lpshoppingcolumn input[type=checkbox]:checked + label::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+         
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    #lpshoppingcolumn input[type=checkbox]:checked + label::after {
+        left: 3px;
+        width: 16px;
+        height: 8px;
+        margin-top: -8px;
+        border-left: 3px solid #E71063;
+        border-bottom: 3px solid #E71063;
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+}
+
+
+/*インプットタイプ
+----------------------------------------------- */
+#lpshoppingcolumn input[type="text"]
+{
+	padding: 5px 10px 0 10px;
+    border: #999 1px solid;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 1.1em;
+    height: 90px;
+    /*background: rgb(221, 221, 221);*/
+	background: #fff;
+}
+
+#lpshoppingcolumn input[type="password"]
+{
+	padding: 5px 10px 0 10px;
+    border: #999 1px solid;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 1.1em;
+    height: 90px;
+    /*background: rgb(221, 221, 221);*/
+	background: #fff;
+}
+
+#lpshoppingcolumn input[type="tel"]
+{
+	padding: 10px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	font-size:1.1em;
+
+}
+
+#lpshoppingcolumn input[type="email"],
+
+{
+	padding: 10px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	font-size:1.1em;
+
+}
+
+#lpshoppingcolumn textarea {width: 99%;height: 100px;padding:10px;font-size:1.1em;}
+#lpshoppingcolumn placeholder{font-size:1.1em;}
+
+
+
+/*フォントカラー
+----------------------------------------------- */
+#lpshoppingcolumn .lp_red {
+    /*background: #f0f0f0;*/
+    margin: 10px 0 0 0;
+    /*padding: 5px 0 5px 10px;*/
+    padding: 0;
+    color: #333;
+    font-size: 100% !important;
+    line-height: 1.4;
+}
+
+
+/*セレクト共通
+----------------------------------------------- */
+#lpshoppingcolumn form .custom-select {
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    border: 1px solid #c8c8c8;
+    vertical-align: middle;
+    z-index: 1;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#lpshoppingcolumn form .custom-select:before {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 30px;
+	height: 100%;
+	padding: 0 0.35em;
+	background: #fff url(../img/common/select_arrow_sml_gray.png) no-repeat center center;
+	text-align: center;
+	content: '';
+	border-left: 1px solid #aaa;
+	z-index: 1;
+	pointer-events: none;
+	/*box-shadow: 0px 0px 3px 0px rgba(000,000,000,0.3);
+	-moz-box-shadow: 0px 0px 3px 0px rgba(000,000,000,0.3);
+	-webkit-box-shadow: 0px 0px ３px 0px rgba(000,000,000,0.3);*/
+}
+
+#lpshoppingcolumn form .custom-select select {
+	display: block;
+	width: 100%;
+	padding:5px 6px 5px 6px !important;
+	height: 36px;
+	margin: 0;
+	background-color: transparent;
+	border: 0 none;
+	line-height: normal;
+	box-shadow: none;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	font-size:1.1em;
+	/*background: rgb(221, 221, 221);*/
+}
+
+
+/*誕生月セレクト*/
+#lpshoppingcolumn form .birth-select {
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    border: 1px solid #aaa;
+    vertical-align: middle;
+    z-index: 1;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 5px 0;
+    padding: 0;
+}
+
+#lpshoppingcolumn form .birth-select:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 40px;
+	height: 40px;
+	padding: 0px;
+	background: url('../img/common/select_arrow_sml_gray.png') no-repeat scroll center center #fff;
+	text-align: center;
+	content: "";
+	z-index: 1;
+	border-left: 1px solid #aaa;
+	pointer-events: none;
+/*	box-shadow: 0px 0px 3px 0px rgba(000,000,000,0.3);
+	-moz-box-shadow: 0px 0px 3px 0px rgba(000,000,000,0.3);
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(000,000,000,0.3);*/
+}
+
+#lpshoppingcolumn form .birth-select select {
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin: 0px;
+	background-color: transparent;
+    padding: 5px 0 5px 0.25em !important;
+    border: 0 none;
+    line-height: normal;
+    box-shadow: none;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+    font-size: 1.1em;
+	/*background: rgb(221, 221, 221);*/
+}
+
+
+/*セレクト共通2*/
+#lpshoppingcolumn form .custom-select2 {
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    border: 1px solid #aaa;
+    vertical-align: middle;
+    z-index: 1;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 5px 0;
+    padding: 0;
+}
+
+#lpshoppingcolumn form .custom-select2:before {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 100%;
+    padding: 0 0.35em;
+    background: #fff url(../img/common/select_arrow_sml2.png) no-repeat center center;
+    text-align: center;
+    content: '';
+    z-index: 1;
+    pointer-events: none;
+}
+
+#lpshoppingcolumn form .custom-select2 select {
+    display: block;
+    width: 100%;
+    padding: 0px 13px 0 2px !important;
+    height: 40px;
+    margin: 0;
+    background-color: transparent;
+    border: 0 none;
+    line-height: normal;
+    box-shadow: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    font-size: 1.1em;
+}
+
+/*セレクト共通3*/
+
+#lpshoppingcolumn form .custom-select3 {
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    border: 1px solid #aaa;
+    vertical-align: middle;
+    z-index: 1;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 5px 0;
+    padding:0;
+}
+
+#lpshoppingcolumn form .custom-select3:before {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 100%;
+    padding: 0 0.35em;
+    background: #fff url(../img/common/select_arrow_sml2.png) no-repeat center center;
+    text-align: center;
+    content: '';
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+#lpshoppingcolumn form .custom-select3 select {
+  display: block;
+  width: 150px;
+  padding:0px 13px 0 2px !important;
+  height: 30px;
+  margin: 0;
+  background-color: transparent;
+  border: 0 none;
+  line-height: normal;
+  box-shadow: none;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  font-size:1.1em;
+
+}
+
+#lpshoppingcolumn #cycle_interval_start_date{width: 10em;}
+#lpshoppingcolumn #cycle_interval_interval{width: 4.5em;}
+
+/*定期購入セレクト*/
+#lpshoppingcolumn form .register-select {
+	display: inline-block;
+	position: relative;
+	background-color: white;
+	border: 1px solid #c8c8c8;
+	vertical-align: middle;
+	z-index: 1;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#lpshoppingcolumn form .register-select :before {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 10px;
+	height: 100%;
+	padding: 0 0.35em;
+	background: #222000 url(../img/common/select_arrow_sml_gray.png) no-repeat center center;
+	text-align: center;
+	content: '';
+	z-index: 1;
+	pointer-events: none;
+}
+
+
+#lpshoppingcolumn form .register-select select {
+  display: block;
+  width: 100%;
+  padding:0 50px 0 5px;
+  height: 36px;
+  margin: 0;
+  background-color: transparent;
+  border: 0 none;
+  line-height: normal;
+  box-shadow: none;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  font-size:1em;
+}
+
+
+/*その他セレクト*/
+#lpshoppingcolumnn select{
+  border: none;
+  display: block;
+  height: 36px;
+  margin: 0;
+  background-color: transparent;
+  border: 0 none;
+  line-height: normal;
+  box-shadow: none;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+
+} 
+
+/*商品・規格
+----------------------------------------------- */
+#lpshoppingcolumn .products_dt{}
+#lpshoppingcolumn .products_dt table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+#lpshoppingcolumn table td {
+    padding: 15px 0;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+
+/*規格*/
+#lpshoppingcolumn table td #class_category {
+    padding: 15px 15px 0 0;
+    font-size: 16px;
+    border-bottom: 1px dashed #1e1e1e;
+    overflow: hidden;
+}
+
+.lp-classcategory{
+	padding:0;
+	margin: 0;
+	width: 100%;
+	border: none;
+	display:table;
+	}
+	
+.lp-classcategory dl{width:100%;}
+.lp-classcategory dl dt {
+    padding: 0;
+}
+.lp-classcategory dl dd {
+    padding: 0 0 10px 0;
+    margin-bottom: 10px;
+}
+
+.lp-classcategory dl .mgleft{margin-left:10px;}
+.lpclcategory_boxl{display:table-cell;width:50%;padding:0 5px;}
+.lpclcategory_boxr{display:table-cell;width:50%;padding:0 0 0 15px;}
+
+
+/*購入したことがある方
+---------------------------------------------------*/
+#lpshoppingcolumn .register_btn {
+    display: block;
+    width: 100%;
+	border: 1px solid #999999;
+	background: #ffd7d7 !important;
+    padding: 15px 0;
+    color: #333;
+    text-align: center;
+    margin: 30px auto 0 auto;
+	font-size: 1.2em;
+    border-radius: 3px;
+}
+
+/*ログインボタン*/
+#lpshoppingcolumn .lp_button {
+	padding: 10px 14px;
+	background: #212121 !important;
+	border:1px solid #CCC;
+	font-size:1.1em;
+	color:#fff;
+	font-weight: bold;
+}
+
+
+/*フォーム（お客様情報）
+------------------------------------------------*/
+
+/*誕生月*/
+#lpshoppingcolumn .lp-birthday ul{width:100%;}
+#lpshoppingcolumn .lp-birthday li{width:25%;float:left;}
+
+
+/*エラー*/
+#lpshoppingcolumn .lp-error {
+	display: block;
+	color: rgb(255,255,255);
+	background: rgb(255,0,0);
+}
+
+
+/*郵便番号*/
+.lp-zipcode{
+	display: -webkit-box;
+	display: -moz-box;
+	width:100%;
+	display:block;
+	
+}
+
+#lpshoppingcolumn .zip_button {
+  display: inline-block;
+  padding: 10px 0px;
+  border: none;
+  background: #1e1e1e;
+  color: #fff;
+  cursor: pointer;
+  font-size:1em;
+  font-family: inherit;
+  vertical-align: middle;
+}
+
+/*女性・男性ボタン*/
+#order_sex_group{display:table;}
+#order_sex_group input{ display: none;}
+
+#order_sex_group label{
+	display:table-cell;
+	cursor: pointer;
+	width: 200px;
+	margin: 0;
+	padding: 10px;
+	background: #fff;
+	color: #333;
+	font-size: 16px;
+	text-align: center;
+	line-height: 1;
+	transition: .2s;
+	border:1px solid #ccc;
+}
+#order_sex_group label:first-of-type{
+	border-radius: 3px 0 0 3px;
+}
+#order_sex_group label:last-of-type{
+	border-radius: 0 3px 3px 0;
+}
+#order_sex_group input[type="radio"]:checked + .sex_male {
+	background-color: #b1cf25;
+	color: #fff;
+}
+#order_sex_group input[type="radio"]:checked + .sex_female {
+	background-color: #e67168;
+	color: #fff;
+}
+
+
+/* 必須・任意ラベル*/
+#lpshoppingcolumn span.required {
+	margin: 0 0 0 1em;
+	padding: 0.1em 0.5em;
+	font-size: 70%;
+	background: #E54848;
+	color: #fff;
+	border-radius: 0.3em;
+	vertical-align: middle;
+	position: relative;
+	top: -0.25em;
+}
+
+#lpshoppingcolumn span.any {
+	margin: 0 0 0 1em;
+	padding: 0.1em 0.5em;
+	font-size: 70%;
+	background: #999;
+	color: #fff;
+	border-radius: 0.3em;
+	vertical-align: middle;
+	position: relative;
+	top: -0.25em;
+}
+
+/*別のお届け先
+----------------------------------------------- */
+#lpshoppingcolumn .deliv_btn {
+    display: block;
+    width: 100%;
+    border: 1px solid #aaa;
+    background: #eee !important;
+    padding: 15px 0;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px auto 20px;
+    font-size: 1.2em;
+    border-radius: 3px;
+}
+
+.deliv_other {
+    background-color: #eef5fb;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+
+/*お支払い方法
+----------------------------------------------- */
+#payment_area{font-size: 1em;}
+#payment_area table{
+	width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;}
+
+#payment_area table td {
+    padding: 15px 0;
+    font-size: 16px;
+    border-bottom: 1px dotted #767676;
+    overflow: hidden;
+}
+
+#lpshoppingcolumn .use_payarea{}
+.payselect_txt{background: #ddd;font-size:1.2em;}
+#lpshoppingcolumn .use_payarea table{
+	width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;
+	background:#eef5fb;
+	}
+#lpshoppingcolumn .use_payarea table th{
+	width:30%;
+	padding:15px;
+	border-bottom:1px solid #fff;
+	font-size: 16px;
+	text-align: left;
+	}
+#lpshoppingcolumn .use_payarea table td{
+	padding:10px;
+	border-bottom:1px solid #fff;
+	font-size: 16px;}
+
+#lpshoppingcolumn em .payment_normal,em .payment_reg{
+	font-size:14px;
+	line-height:1.3rem;
+    font-style: normal;
+    color: #e20000;
+    margin: 5px 0;	}
+
+#lpshoppingcolumn .payment_note_area img{
+    margin: 0 auto;
+    padding: 10px 0;
+    max-width: 100%;}
+
+/*カード登録注意事項*/
+#lpshoppingcolumn .attention1  {
+    color: #ff0000;
+    width: 90%;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 2px 0 0 0;
+    line-height: 1.7;
+    margin: 0 10px 0 0;
+}
+
+/*お届け間隔の指定(定期)
+----------------------------------------------*/
+#lpshoppingcolumn .regular_deliv_day{padding:0 30px 0 10px;font-weight:bold;}
+#lpshoppingcolumn #regular_product_area{
+	font-size:100%;
+	color:#ff0000;
+	margin:0 auto;
+	padding:0;
+	text-align:center;
+}
+#lpshoppingcolumn #regular_product_area h2{
+	display:none;
+}
+
+/*お届け間隔の指定*/
+#lpshoppingcolumn #regular_cycle_area{}
+
+#lpshoppingcolumn .txt_sz{
+    letter-spacing: 0em;
+    font-weight: 500;
+	font-size:14px;
+}
+
+#lpshoppingcolumn #regular_cycle_area .cycle_form{float:right;width:65%;padding:3px;}
+
+#lpshoppingcolumn #regular_cycle_area table{
+	width: 100%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	text-align: left;
+}
+#lpshoppingcolumn #regular_cycle_area table th{
+	padding: 10px;
+	margin: 0 auto;
+	border-bottom: 1px dotted #767676;
+	color: #333;
+	font-weight: normal;
+	font-size: 16px;
+	text-align: left;
+	overflow: hidden;
+	width: 30%;
+}
+
+#lpshoppingcolumn #regular_cycle_area table td {
+    padding: 0;
+    font-size: 16px;
+    border-bottom: 1px dotted #767676;
+    overflow: hidden;
+    height: 60px;
+}
+
+/*お届け予定日*/
+#lpshoppingcolumn #regular_cycle_area .reg_delivday{background: #fff;padding:10px;}
+.deliv_s_date {
+    /* margin: 10px 0; */
+    padding: 0 0 10px 0;
+    font-weight: 600;
+}
+#lpshoppingcolumn #regular_deliv_day_first{border-left:1px dotted #ccc;padding-left:5px;padding-right:5px;}
+#lpshoppingcolumn #regular_deliv_day_second{border-left:1px dotted #ccc;padding-left:5px;padding-right:5px;}
+#lpshoppingcolumn #regular_cycle_area .reg_delivday ul{display:table;width:100%;}
+#lpshoppingcolumn #regular_cycle_area .reg_delivday ul li{display:table-cell;width:50%;}
+#lpshoppingcolumn #regular_cycle_area .reg_delivday ul li .delivday_box{border:1px solid #ccc;padding:10px;background:#f2fafe;}
+
+/*初回は最短でお届けする*/
+#lpshoppingcolumn #regular_cycle_area .delive_shortbt{margin-left:10px;padding:10px;background:#f6f6f6;}
+
+
+
+/*クーポン
+----------------------------------------------- */	
+#coupon_area .cupon_btn {
+    width: 100px;
+    padding: 8px 3px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    position: relative;
+    top: -3px;
+    color: #313131;
+    display: inline_block;
+    margin: 0 auto;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 100%;
+    white-space: normal;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #f1f1f1;
+    background: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#f1f1f1));
+    background: -webkit-linear-gradient(top,#fff,#f1f1f1);
+    background: -moz-linear-gradient(top,#fff,#f1f1f1);
+    background: -o-linear-gradient(top,#fff,#f1f1f1);
+    background: -linear-gradient(top,#fff,#f1f1f1);
+    background: kground: linear-gradient(top,#fff,#f1f1f1);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    -o-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+
+	
+
+/*個人情報のお取り扱いについて
+------------------------------------------------*/
+#lpshoppingcolumn .ft_s04{
+    margin: 10px 0;
+    padding: 0;
+    font-weight: bold;
+    line-height: 2em;
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+}
+
+#lpshoppingcolumn .ft_s04 a{
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+#lpshoppingcolumn .ft_s04 a:hover{
+	opacity:0.8;
+    text-decoration: underline;
+}
+
+/*規約*/
+#lpshoppingcolumn .kiyaku {
+    width: 98%;
+    margin: 0 auto;
+    height: 180px;
+}
+
+/*購入確認画面ボタン
+------------------------------------------------*/
+#lpshoppingcolumn .lp_button_submit {
+	line-height: 3em !important;
+	font-size: 24px;
+	font-weight: bold;
+}
+#lpshoppingcolumn .lp_submit_area {
+	display: block;
+	margin: 20px 0;
+}
+#lpshoppingcolumn .lp_submit_area li {
+    width: 380px;
+    margin: 0 auto;
+    /* padding: 5px; */
+    text-align: center;
+    line-hegiht: 24px;
+}
+#lpshoppingcolumn .lp_submit_area li a:hover {
+    display:block;
+    background-image:url(../img/shopping/green_bt_on.png);
+    text-decoration: none;
+}
+#lpshoppingcolumn .lp_submit_area li a {
+	display: block;
+    background-image:url(../img/shopping/green_bt_off.png);
+    text-decoration: none;
+}
+#lpshoppingcolumn .required {
+	font-weight: 100;
+}
+
+
+/*フォーム　デザイン　追加スタイル　20190920
+------------------------------------------------*/
+#lpshoppingcolumn .products_dt table td {
+	border-bottom: none;
+	margin: 0 0 20px;
+	padding: 0;
+}
+#lpshoppingcolumn .products_dt table td select {
+	height: 70px;
+}
+
+#lpshoppingcolumn .products_dt table td:last-child {
+	width: 100px;
+}
+
+#lpshoppingcolumn .products_dt h3 {
+	display: none;
+}
+#lpshoppingcolumn table#lp-not-login .any {
+	display: none;
+}
+#lpshoppingcolumn table#lp-not-login th,
+#lpshoppingcolumn table#lp-not-login td {
+	border-bottom: 1px solid #ccc;
+	padding-left: 0;
+	padding-right: 0;
+}
+#lpshoppingcolumn table#lp-not-login th {
+	width: 180px;
+}
+#lpshoppingcolumn .lp-zipcode .nohyphen {
+	padding-top: 30px;
+}
+#lpshoppingcolumn table#deliv_check_area th {
+	width: 180px;
+}
+#lpshoppingcolumn #confirm_submit {
+	width: 650px !important;
+	margin-top: 50px;
+}
+#lpshoppingcolumn table#lp-not-login th.th_birthday {
+	vertical-align: middle;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) { 
+
+	#lpshoppingcolumn {
+		width: 90%;
+		padding: 0;
+	
+	#lpshoppingcolumn #confirm_submit {
+		width: auto;
+	}
+	#lpshoppingcolumn table {
+		width: 100%;
+	}
+	#lpshoppingcolumn table th{
+		width: 30%;
+	}
+	#lpshoppingcolumn table td{
+		width: 70%;
+	}
+}/* Media Queries END */
+

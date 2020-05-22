@@ -1,0 +1,359 @@
+@charset "utf-8";
+
+/* common.css　INDEX 共通設定*/
+
+html { -webkit-text-size-adjust: 100%; }
+
+* { 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+a:hover img {
+	opacity:1.0;
+}
+
+
+/* clearfix
+----------------------------------------------------------------------------- */
+.cf { zoom: 1; }
+.cf:before, .cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+
+/* 1.固定
+----------------------------------------------------------------------------- */
+
+body {
+	margin :0 auto ;
+	padding :0 ;
+	color :#333 ;
+	font-size: 16px;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","游ゴシック体", "Yu Gothic", YuGothic, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	text-align :center ;
+	background: #FFF;
+}
+
+
+/* 2.リンク設定
+----------------------------------------------------------------------------- */
+
+a:link ,
+a:visited {
+	color :#333 ;
+	text-decoration :none ;
+}
+a:hover {
+	color :#000 ;
+	text-decoration :none ;
+}
+
+
+/* FireFox リンク選択時の点線を消す　*/
+a {
+	overflow: hidden;
+	outline: none;
+}
+
+
+/* ------------------------------
+ 　画像に疑似ロールオーバー
+------------------------------ */
+
+.rollover {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all  0.3s ease;
+}
+
+.rollover:hover {
+	filter:alpha(opacity=80);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+}
+
+
+/* 3.Ｈ_タグ
+----------------------------------------------------------------------------- */
+
+
+h2 , h3 , h4 , h5 {
+	clear :both ;
+	text-align :left ;
+}
+
+
+/* 4.margin padding　設定
+----------------------------------------------------------------------------- */
+
+/*margin　上*/
+.mt0 { margin-top :0 !important;}
+.mt5 { margin-top :5px ;}
+.mt7 { margin-top :7px ;}
+.mt10 { margin-top :10px !important;}
+.mt15 { margin-top :15px !important;}
+.mt20 { margin-top :20px !important;}
+.mt25 { margin-top :25px ;}
+.mt30 { margin-top :30px !important;}
+.mt35 { margin-top :35px ;}
+.mt40 { margin-top :40px ;}
+.mt45 { margin-top :45px ;}
+.mt50 { margin-top :50px ;}
+
+/*margin　右*/
+.mr5 { margin-right :5px ;}
+.mr10 { margin-right :10px ;}
+.mr15 { margin-right :15px ;}
+.mr20 { margin-right :20px ;}
+.mr25 { margin-right :25px ;}
+.mr30 { margin-right :30px ;}
+.mr35 { margin-right :35px ;}
+.mr40 { margin-right :40px ;}
+.mr45 { margin-right :45px ;}
+.mr50 { margin-right :50px ;}
+
+/*margin　下*/
+.mb0 { margin-bottom :0px !important;}
+.mb5 { margin-bottom :5px !important;}
+.mb7 { margin-bottom :7px ;}
+.mb10 { margin-bottom :10px !important;}
+.mb15 { margin-bottom :15px !important;}
+.mb20 { margin-bottom :20px !important;}
+.mb25 { margin-bottom :25px ;}
+.mb30 { margin-bottom :30px !important;}
+.mb35 { margin-bottom :35px ;}
+.mb40 { margin-bottom :40px ;}
+.mb45 { margin-bottom :45px ;}
+.mb50 { margin-bottom :50px ;}
+
+.mb1em { margin-bottom :1em ;}
+
+
+/*margin　左*/
+.ml5 { margin-left :5px ;}
+.ml10 { margin-left :10px ;}
+.ml15 { margin-left :15px ;}
+.ml20 { margin-left :20px ;}
+.ml25 { margin-left :25px ;}
+.ml30 { margin-left :30px ;}
+.ml35 { margin-left :35px ;}
+.ml40 { margin-left :40px ;}
+.ml45 { margin-left :45px ;}
+.ml50 { margin-left :50px ;}
+
+/*padding　上*/
+.pt5 { padding-top :5px ;}
+.pt7 { padding-top :7px ;}
+.pt10 { padding-top :10px ;}
+.pt15 { padding-top :15px ;}
+.pt20 { padding-top :20px ;}
+.pt25 { padding-top :25px ;}
+.pt30 { padding-top :30px ;}
+.pt35 { padding-top :35px ;}
+.pt40 { padding-top :40px ;}
+.pt45 { padding-top :45px ;}
+.pt50 { padding-top :50px ;}
+
+/*padding　右*/
+.pr5 { padding-right :5px ;}
+.pr10 { padding-right :10px ;}
+.pr15 { padding-right :15px ;}
+.pr20 { padding-right :20px ;}
+.pr25 { padding-right :25px ;}
+.pr30 { padding-right :30px ;}
+.pr35 { padding-right :35px ;}
+.pr40 { padding-right :40px ;}
+.pr45 { padding-right :45px ;}
+.pr50 { padding-right :50px ;}
+
+/*padding　下*/
+.pb0 { padding-bottom :0px !important;}
+.pb5 { padding-bottom :5px ;}
+.pb10 { padding-bottom :10px ;}
+.pb15 { padding-bottom :15px ;}
+.pb20 { padding-bottom :20px ;}
+.pb25 { padding-bottom :25px ;}
+.pb30 { padding-bottom :30px ;}
+.pb35 { padding-bottom :35px ;}
+.pb40 { padding-bottom :40px ;}
+.pb45 { padding-bottom :45px ;}
+.pb50 { padding-bottom :50px ;}
+
+/*padding　左*/
+.pl5 { padding-left :5px ;}
+.pl10 { padding-left :10px ;}
+.pl15 { padding-left :15px ;}
+.pl20 { padding-left :20px ;}
+.pl25 { padding-left :25px ;}
+.pl30 { padding-left :30px ;}
+.pl35 { padding-left :35px ;}
+.pl40 { padding-left :40px ;}
+.pl45 { padding-left :45px ;}
+.pl50 { padding-left :50px ;}
+
+
+
+/* 5.フォントサイズ固定
+----------------------------------------------------------------------------- */
+
+.f10 { font-size :10px ;}
+.f11 { font-size :11px ;}
+.f12 { font-size :12px ;}
+.f14 { font-size :14px ;}
+.f16 { font-size :16px ;}
+.f18 { font-size :18px ;}
+.f20 { font-size :20px ;}
+
+
+
+/* 6.フォントサイズ可変
+----------------------------------------------------------------------------- */
+
+.f80 { font-size :80% ;}
+.f90 { font-size :90% ;}
+.f100 { font-size :100% ;}
+.f110 { font-size :110% ;}
+.f120 { font-size :120% ;}
+.f130 { font-size :130% ;}
+.f140 { font-size :140% ;}
+.f150 { font-size :150% ;}
+.f160 { font-size :160% ;}
+.f170 { font-size :170% ;}
+.f180 { font-size :180% ;}
+.f190 { font-size :190% ;}
+.f200 { font-size :200% ;}
+
+
+
+/* 7.フォントカラー
+----------------------------------------------------------------------------- */
+
+/*赤系*/
+.color1           { color :#ff0000 !important ;}
+.color1b         { color :#ff0000 ; font-weight: bold !important ;}
+
+
+/* 0.汎用
+----------------------------------------------------------------------------- */
+
+/*フロート設定*/
+.fl {
+	float :left ;
+}
+
+.fr {
+	float :right ;
+}
+
+.center {
+	text-align :center ;
+}
+
+.right {
+	text-align :right ;
+	display: block ;
+}
+
+.left {
+	text-align :left ;
+	display: block ;
+}
+
+
+/*フロートクリアー*/
+.clear {
+	clear :both ;
+}
+
+
+/*写真回り込み*/
+.f_left {
+	display:inline;
+	float:left;
+	margin:0 10px 10px 0;
+}
+
+.f_right {
+	display:inline;
+	float:right;
+	margin:0 0 10px 10px;
+}
+
+/*フォントボールド*/
+.bold {
+	font-weight:bold ;
+}
+/*フォントノーマル*/
+.f_normal {
+	font-weight: normal;
+}
+
+/*ブロック*/
+.d_block {
+	display: block ;
+}
+
+/*エラー*/
+.d_error {
+	color: #CC0000 ;
+}
+
+/* フォームの部品（共通）
+----------------------------------------------- */
+/*formのパーツ天地センター*/
+input,
+select {
+	vertical-align: middle ;
+	vertical-align: 2px ;
+}
+
+input:focus, textarea:focus {
+background-color: #f8e7a4;
+}
+
+.for_sp {
+	display: inline;
+	display: none;
+}
+.for_tb {
+	display: none;
+}
+.pc_br {
+	display: inline !important;
+}
+.sp_br {
+	display: none !important;
+}
+
+	@media only screen and (max-width: 812px) { 
+		.for_sp {
+			display: block;
+		}
+		.for_tb {
+			display: none;
+		}
+		.for_pc {
+			display: none;
+		}
+		.pc_br {
+			display: none !important;
+		}
+		.sp_br {
+			display: block !important;
+		}
+
+	}
+
+
+.fade-in {
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+}

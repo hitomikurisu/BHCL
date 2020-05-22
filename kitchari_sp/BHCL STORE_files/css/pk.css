@@ -1,0 +1,29 @@
+@charset "utf-8";
+div#undercolumn .pr_stock_table{width:auto;margin: 0;font-size:12px;}
+div#undercolumn .pr_stock_table th{padding:3px;color:#333;text-align:center;}
+div#undercolumn .pr_stock_table td{vertical-align:top;padding:3px;}
+
+div#undercolumn .pr_smp_stock_table{width:290px;margin: 0;font-size:11px;}
+div#undercolumn .pr_smp_stock_table th{padding:1px;color:#333;text-align:center;}
+div#undercolumn .pr_smp_stock_table td{vertical-align:top;padding:1px;}
+
+a.pr_a_link:link{color: #fff;}
+a.pr_a_link:visited{color: #fff;}
+a.pr_a_link:hover{color: #fff;}
+.pr_a_link{
+    padding: 0.4em 0.3em;
+    margin: 0 0.2em;
+    text-decoration: none;
+    background: #95c146;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    line-height: 2.7em;
+    white-space: nowrap;
+}
+.pr_gray_line{
+    border-bottom: 1px dotted #cccccc;
+}
+.pr_mt5{
+    margin-top: 5px;
+}
