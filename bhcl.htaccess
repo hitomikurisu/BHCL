@@ -1,8 +1,10 @@
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteCond %{HTTP_USER_AGENT} (iPhone|Android.*Mobile|Windows.*Phone) [NC]
-RewriteCond %{QUERY_STRING} !mode=pc
-RewriteRule ^$ kitchari_sp/ [R,L]
+RewriteEngine on
+RewriteBase /
 
-Header set Vary User-Agent
-</IfModule>
+RewriteCond %{REQUEST_URI} !/kitchari_sp/
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|Android.*Mobile|Windows.\ Phone)
+RewriteRule ^(.*)$ kitchari_sp/$1 [R]
+
+RewriteCond %{REQUEST_URI} /sp/
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|Android.*Mobile|Windows.\ Phone)
+RewriteRule ^kitchari_sp/(.*)$ $1 [R]
